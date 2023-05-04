@@ -1,5 +1,13 @@
 @font-face {
     font-family: 'YouTubeSansDark-Bold';
+    src: url('Fonts/YouTubeSansDark-SemiBold.woff2') format('woff2'),
+        url('Fonts/YouTubeSansDark-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YouTubeSansDark-ExtraBold';
     src: url('Fonts/YouTubeSansDark-Bold.woff2') format('woff2'),
         url('Fonts/YouTubeSansDark-Bold.woff') format('woff');
     font-weight: normal;
@@ -7,17 +15,9 @@
 }
 
 @font-face {
-    font-family: 'YouTubeSansDark-ExtraBold';
-    src: url('Fonts/YouTubeSansDark-ExtraBold.woff2') format('woff2'),
-        url('Fonts/YouTubeSansDark-ExtraBold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'YouTubeSansDark-Medium';
-    src: url('Fonts/YouTubeSansDark-Medium.woff2') format('woff2'),
-        url('Fonts/YouTubeSansDark-Medium.woff') format('woff');
+    src: url('Fonts/YouTubeSansDark-Light.woff2') format('woff2'),
+        url('Fonts/YouTubeSansDark-Light.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -122,6 +122,7 @@ h1 {
 
 .bgvideo {
     width: 100%;
+    display: block;
 }
 
 .slogan {
@@ -237,7 +238,7 @@ h1 {
 
 .image1 img {
     width: 100%;
-    height: 29vw;
+    height: 35vw;
     object-fit: cover;
 }
 
@@ -247,8 +248,8 @@ h1 {
 }
 
 .title {
-    font-size: 2.6vw;
-    margin: 0 0 1vw 0;
+    font-size: 2.2vw;
+    margin: 0 0 2vw 0;
 }
 
 .information-items {
@@ -257,14 +258,14 @@ h1 {
 }
 
 .items-text {
-    font-size: 1.5vw;
-    line-height: 2.6vw;
+    font-size: 1.3vw;
+    line-height: 1.3vw;
     margin: auto 0;
 }
 
 .number-items {
     font-family: 'YouTubeSansDark-Bold';
-    font-size: 4.2vw;
+    font-size: 2.5vw;
     margin-right: 2vw;
 }
 
@@ -293,13 +294,13 @@ h1 {
 .order-black {
     background-color: transparent;
     border-radius: 40px;
-    padding: 0 1vw;
+    padding: 0.5vw 2vw;
     margin: 2vw auto 0 auto;
     border: 2px solid #000;
 }
 
 .order-black p {
-    font-size: 2.5vw;
+    font-size: 2.4vw;
     text-transform: uppercase;
 }
 
@@ -381,7 +382,8 @@ h1 {
     }
 
     .logo img {
-        height: auto;
+        width: 100%;
+        height: 42vw;
     }
 
     .button__header {
