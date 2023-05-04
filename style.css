@@ -42,6 +42,9 @@ a{
 p{
     margin: 0;
 }
+b{
+    font-family: 'YouTubeSansDark-ExtraBold';
+}
 h1{
     font-family: 'YouTubeSansDark-ExtraBold';
 }
@@ -129,6 +132,9 @@ h1{
 .features{
     display: flex;
     justify-content: space-between;
+    position: relative;
+    margin-top: -4px;
+    z-index: 99;
 }
 .card{
     width: 32%;
@@ -147,7 +153,7 @@ h1{
     font-size: 1.6vw;
     width: 93%;
     text-align: center;
-    margin: 35px auto 0 auto;
+    margin: 2vw auto 0 auto;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -170,6 +176,7 @@ h1{
     justify-content: space-between;
     padding: 0 8vw;
     margin-top: 4vw;
+    margin-bottom: 4vw;
 }
 .form-slider{
     width: 40%;
@@ -187,7 +194,7 @@ h1{
     color: #fff!important;
 }
 .slick-dots{
-    bottom: 17px;
+    bottom: 0.6vw;
 }
 .slick-dots li button:before{
     font-size: 0.8vw;
@@ -241,4 +248,60 @@ h1{
     object-fit: cover;
     object-position: top;
     height: 26vw;
+}
+.order-black{
+    background-color: transparent;
+    border-radius: 40px;
+    padding: 0 1vw;
+    margin: 4vw auto 0 auto;
+    border: 2px solid #000;
+}
+.order-black p{
+    font-size: 2.5vw;
+    text-transform: uppercase;
+}
+.footer{
+    display: flex;
+    padding: 1vw 8vw 3vw 8vw;
+    background-color: #000;
+}
+.footer-information{
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+}
+.column{
+    display: flex;
+}
+.footer-title{
+    display: flex;
+}
+.footer-icon{
+    display: flex;
+    align-items: baseline;
+    margin-right: 1vw;
+}
+.footer-icon img{
+    width: 1vw;
+}
+.footer-text{
+    color: #fff;
+    font-size: 1.3vw;
+    line-height: 2vw;
+}
+.footer-text h3{
+    margin: 0 0 0.5vw 0;
+    font-size: 1.6vw;
+}
+.footer-logo{
+    display: flex;
+    width: 45%;
+    justify-content: end;
+}
+.logo__footer{
+    width: 27%;
+    margin: auto 0;
+}
+.footer-logo img{
+    width: 100%;
 }
